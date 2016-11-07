@@ -29,5 +29,20 @@ namespace Food_Truck.Models
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Inventory> Inventory { get; set; }
+        public DbSet<Truck> Truck { get; set; }
+        public DbSet<TruckInventory> TruckInventory { get; set; }
+        public DbSet<Menu_Item> Menu_Item { get; set; }
+        public DbSet<Menu> Menu { get; set; }
+        public DbSet<Location> Location { get; set; }
+        public DbSet<Address> Address { get; set; }
+        public DbSet<City> City { get; set; }
+        public DbSet<State> State { get; set; }
+        public DbSet<Zipcode> Zipcode { get; set; }
+        public DbSet<Order> Order { get; set; }
+        public DbSet<Ingredient> Ingredient { get; set; }
+        public DbSet<OrderDetail> OrderDetail { get; set; }
+        public DbSet<Schedule> Schedule { get; set; }
+        public DbSet<ScheduleLocation> ScheduleLocation { get; set; }
     }
 }
