@@ -27,18 +27,6 @@
                     <li>@Html.ActionLink("Schedule", "Index", "Schedule")</li>
                     <li>@Html.ActionLink("Order", "Index", "Order")</li>
                     <li>@Html.ActionLink("Inventory", "Index", "Inventory")</li>
-                    <!--<li>
-                        <a class="page-scroll" href="#Menu">Menu</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#Schedule">Schedule</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#Order">Order</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#Inventory">Inventory</a>
-                    </li>-->
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -48,14 +36,9 @@
         @RenderBody()
         <hr />
         <footer>
-<<<<<<< HEAD
-            <p>&copy; @DateTime.Now.Year - Patty Wagon</p>
-=======
             <p>&copy; @DateTime.Now.Year - The Patty Wagon</p>
->>>>>>> origin/master
         </footer>
     </div>
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
