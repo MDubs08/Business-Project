@@ -2,30 +2,46 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <center>
-        <h1>The Patty Wagon</h1>
-        <p class="lead">Food. That's all you need to know.</p>
-        @*<p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
-    </center>
+<div class="topMenu">
+    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="3500" id="bs-carousel">
+        <div class="overlay"></div>
+        <ol class="carousel-indicators">
+            <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#bs-carousel" data-slide-to="1"></li>
+            <li data-target="#bs-carousel" data-slide-to="2"></li>
+        </ol>
+    <div class="carousel-inner">
+        <div class="item slides active">
+            <div class="slide-1"></div>
+            <div class="hero">
+                <img src="~/Content/Pictures/FoodTruck0.jpg" id="carouselImage" width="100%" height="840px">
+            </div>
+        </div>
+        <div class="item slides">
+            <div class="slide-2"></div>
+            <div class="hero">
+                <img src="~/Content/Pictures/FoodTruck1.jpg" id="carouselImage" width="100%" height="840px">
+            </div>
+        </div>
+        <div class="item slides">
+            <div class="slide-3"></div>
+            <div class="hero">
+                <img src="~/Content/Pictures/FoodTruck2.jpg" id="carouselImage" width="100%" height="840px">
+            </div>
+        </div>
+    </div>
+    </div>
 </div>
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Find Locations</h2>
-        <p>
-            We're serving a location near you! Click to track us down.
-        </p>
-        <p><a class="btn btn-default" @*href="http://go.microsoft.com/fwlink/?LinkId=301865"*@>Find</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Check Out Our Menu</h2>
-        <p>Burgers, brats, sandwiches, and more. We guarantee there's something for everybody! </p>
-        <p><a class="btn btn-default" @*href="http://go.microsoft.com/fwlink/?LinkId=301866"*@>Menu</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Order Online</h2>
-        <p>Crunched for time? Place your order online and we'll have it ready when you get here.</p>
-        <p><a class="btn btn-default" @*href="http://go.microsoft.com/fwlink/?LinkId=301867"*@>Order</a></p>
+<div id="welcome" class="background-white">
+    <div class="container">
+        <div class="row margin-vert-40">
+            <div class="col-md-12">
+                <h2 class="text-center article-title">Welcome to the Patty Wagon</h2>
+                <p class="text-center">
+                    Since 1903, we have been serving the community the best food this side of the Mississippi.
+                </p>
+                <img class="fadeInUp animate" alt="" img src="~/Content/Pictures/food-truck.png" style="display: block; margin-left: auto; margin-right: auto; margin-top: 40px;">
+            </div>
+        </div>
     </div>
 </div>

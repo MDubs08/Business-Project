@@ -1,0 +1,74 @@
+MENU
+	Breakfast
+		Sandwiches-make meal with tots and drink
+			Breakfast Patty
+				bun
+				patty
+				egg
+				bacon
+				cheese
+				hollandaise
+			French Patty
+				2 pieces of french toast
+				patty
+				egg
+				bacon
+				side of syrup
+		other breakfast fare
+			french toast
+				2 pieces of french toast
+			breakfast poutine
+				fries
+				2 eggs
+				gravy
+				tots
+				bacon
+				nuff said
+		Sides
+			tots
+			bacon
+			
+	lunch
+		sandwiches-make meal with fries and drink
+			classic patty
+				bun
+				patty 
+				lettuce
+				tomato
+				onion
+				pickle
+			wisconsin patty	
+				bun
+				patty
+				2 cheese
+				bacon
+				lettuce
+				tomato
+			double classic
+				bun
+				2 patties 
+				lettuce
+				tomato
+				onion
+				pickle
+			you sure?
+				bun
+				3 patties
+				3 slices of cheese
+				bacon
+				lettuce
+				tomato
+				onion
+				pickle
+		sides
+			fries
+			mac n cheese
+			tater salad
+		drinks
+			milk
+			choc milk
+			soda
+			coffee
+			beer
+			
+		
