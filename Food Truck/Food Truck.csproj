@@ -177,6 +177,10 @@
     <Compile Include="Migrations\201611072251064_initial drop.Designer.cs">
       <DependentUpon>201611072251064_initial drop.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611081418400_added roles.cs" />
+    <Compile Include="Migrations\201611081418400_added roles.Designer.cs">
+      <DependentUpon>201611081418400_added roles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -269,6 +273,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201611072251064_initial drop.resx">
       <DependentUpon>201611072251064_initial drop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611081418400_added roles.resx">
+      <DependentUpon>201611081418400_added roles.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
