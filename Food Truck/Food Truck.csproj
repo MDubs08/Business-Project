@@ -210,10 +210,21 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Pictures\AbstractCity.jpg" />
+    <Content Include="Content\Pictures\FacebookFoodTruck.png" />
     <Content Include="Content\Pictures\food-truck.png" />
     <Content Include="Content\Pictures\FoodTruck0.jpg" />
     <Content Include="Content\Pictures\FoodTruck1.jpg" />
     <Content Include="Content\Pictures\FoodTruck2.jpg" />
+    <Content Include="Content\Pictures\GoogleFoodTruck.png" />
+    <Content Include="Content\Pictures\Harambe.jpg" />
+    <Content Include="Content\Pictures\InstagramFoodTruck.png" />
+    <Content Include="Content\Pictures\JessicaAlba.png" />
+    <Content Include="Content\Pictures\JohnCena.jpg" />
+    <Content Include="Content\Pictures\LinkedinFoodTruck.png" />
+    <Content Include="Content\Pictures\seigaiha.png" />
+    <Content Include="Content\Pictures\TwitterFoodTruck.png" />
+    <Content Include="Content\Pictures\YoutubeFoodTruck.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
