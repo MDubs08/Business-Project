@@ -168,14 +168,21 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AddressesController.cs" />
     <Compile Include="Controllers\Food_ItemController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IngredientsController.cs" />
     <Compile Include="Controllers\InventoryController.cs" />
+    <Compile Include="Controllers\LocationsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\Menu_ItemController.cs" />
+    <Compile Include="Controllers\OrderDetailsController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
+    <Compile Include="Controllers\ScheduleLocationsController.cs" />
     <Compile Include="Controllers\SchedulesController.cs" />
+    <Compile Include="Controllers\TruckInventoriesController.cs" />
+    <Compile Include="Controllers\TrucksController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -318,6 +325,41 @@
     <Content Include="Views\Food_Item\Details.cshtml" />
     <Content Include="Views\Food_Item\Edit.cshtml" />
     <Content Include="Views\Food_Item\Index.cshtml" />
+    <Content Include="Views\ScheduleLocations\Create.cshtml" />
+    <Content Include="Views\ScheduleLocations\Delete.cshtml" />
+    <Content Include="Views\ScheduleLocations\Details.cshtml" />
+    <Content Include="Views\ScheduleLocations\Edit.cshtml" />
+    <Content Include="Views\ScheduleLocations\Index.cshtml" />
+    <Content Include="Views\Addresses\Create.cshtml" />
+    <Content Include="Views\Addresses\Delete.cshtml" />
+    <Content Include="Views\Addresses\Details.cshtml" />
+    <Content Include="Views\Addresses\Edit.cshtml" />
+    <Content Include="Views\Addresses\Index.cshtml" />
+    <Content Include="Views\Ingredients\Create.cshtml" />
+    <Content Include="Views\Ingredients\Delete.cshtml" />
+    <Content Include="Views\Ingredients\Details.cshtml" />
+    <Content Include="Views\Ingredients\Edit.cshtml" />
+    <Content Include="Views\Ingredients\Index.cshtml" />
+    <Content Include="Views\Locations\Create.cshtml" />
+    <Content Include="Views\Locations\Delete.cshtml" />
+    <Content Include="Views\Locations\Details.cshtml" />
+    <Content Include="Views\Locations\Edit.cshtml" />
+    <Content Include="Views\Locations\Index.cshtml" />
+    <Content Include="Views\OrderDetails\Create.cshtml" />
+    <Content Include="Views\OrderDetails\Delete.cshtml" />
+    <Content Include="Views\OrderDetails\Details.cshtml" />
+    <Content Include="Views\OrderDetails\Edit.cshtml" />
+    <Content Include="Views\OrderDetails\Index.cshtml" />
+    <Content Include="Views\Trucks\Create.cshtml" />
+    <Content Include="Views\Trucks\Delete.cshtml" />
+    <Content Include="Views\Trucks\Details.cshtml" />
+    <Content Include="Views\Trucks\Edit.cshtml" />
+    <Content Include="Views\Trucks\Index.cshtml" />
+    <Content Include="Views\TruckInventories\Create.cshtml" />
+    <Content Include="Views\TruckInventories\Delete.cshtml" />
+    <Content Include="Views\TruckInventories\Details.cshtml" />
+    <Content Include="Views\TruckInventories\Edit.cshtml" />
+    <Content Include="Views\TruckInventories\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
