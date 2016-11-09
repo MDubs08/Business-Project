@@ -1,29 +1,29 @@
-﻿@model Food_Truck.Models.Order
+﻿@model Food_Truck.Models.Food_Item
 
 @{
     ViewBag.Title = "Details";
 }
 
-<h2>Order Details</h2>
+<h2>Details</h2>
 
 <div>
-    <h4>Order</h4>
+    <h4>Food_Item</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.Truck.Name)
+            @Html.DisplayNameFor(model => model.Name)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Truck.Name)
+            @Html.DisplayFor(model => model.Name)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Date)
+            @Html.DisplayNameFor(model => model.Sale_Price)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Date)
+            @Html.DisplayFor(model => model.Sale_Price)
         </dd>
 
     </dl>

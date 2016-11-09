@@ -32,6 +32,7 @@ namespace Food_Truck.Models
         public DbSet<Inventory> Inventory { get; set; }
         public DbSet<Truck> Truck { get; set; }
         public DbSet<TruckInventory> TruckInventory { get; set; }
+        public DbSet<Food_Item> Food_Item { get; set; }
         public DbSet<Menu_Item> Menu_Item { get; set; }
         public DbSet<Menu> Menu { get; set; }
         public DbSet<Location> Location { get; set; }

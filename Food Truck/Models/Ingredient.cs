@@ -16,8 +16,8 @@ namespace Food_Truck.Models
         public int InventoryID { get; set; }
         public virtual Inventory Inventory { get; set; }
 
-        [ForeignKey("Menu_Item")]
-        public int Menu_ItemID { get; set; }
-        public virtual Menu_Item Menu_Item { get; set; }
+        [ForeignKey("Food_Item")]
+        public int Food_ItemID { get; set; }
+        public virtual Food_Item Food_Item { get; set; }
     }
 }

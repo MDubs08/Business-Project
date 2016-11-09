@@ -168,10 +168,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Food_ItemController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InventoryController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\Menu_ItemController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\SchedulesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -185,6 +187,10 @@
     <Compile Include="Migrations\201611081418400_added roles.Designer.cs">
       <DependentUpon>201611081418400_added roles.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611091610511_food_Item replaced menu_item.cs" />
+    <Compile Include="Migrations\201611091610511_food_Item replaced menu_item.Designer.cs">
+      <DependentUpon>201611091610511_food_Item replaced menu_item.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -195,6 +201,7 @@
     <Compile Include="Models\Location.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Menu.cs" />
+    <Compile Include="Models\Food_Item.cs" />
     <Compile Include="Models\Menu_Item.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\OrderDetail.cs" />
@@ -299,7 +306,18 @@
     <Content Include="Views\Menu\Details.cshtml" />
     <Content Include="Views\Menu\Edit.cshtml" />
     <Content Include="Views\Menu\Index.cshtml" />
-    <Content Include="Views\Menu\Index - Copy.cshtml" />
+    <Content Include="Views\Menu\Owner.cshtml" />
+    <Content Include="Views\Menu_Item\Create.cshtml" />
+    <Content Include="Views\Menu_Item\Delete.cshtml" />
+    <Content Include="Views\Menu_Item\Details.cshtml" />
+    <Content Include="Views\Menu_Item\Edit.cshtml" />
+    <Content Include="Views\Menu_Item\Index.cshtml" />
+    <Content Include="Views\Menu_Item\Owner.cshtml" />
+    <Content Include="Views\Food_Item\Create.cshtml" />
+    <Content Include="Views\Food_Item\Delete.cshtml" />
+    <Content Include="Views\Food_Item\Details.cshtml" />
+    <Content Include="Views\Food_Item\Edit.cshtml" />
+    <Content Include="Views\Food_Item\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -318,6 +336,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611081418400_added roles.resx">
       <DependentUpon>201611081418400_added roles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611091610511_food_Item replaced menu_item.resx">
+      <DependentUpon>201611091610511_food_Item replaced menu_item.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
