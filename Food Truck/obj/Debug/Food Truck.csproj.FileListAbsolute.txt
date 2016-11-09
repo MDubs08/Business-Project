@@ -283,9 +283,6 @@ C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Deb
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food Truck.csproj.GenerateResource.Cache
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food Truck.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food Truck.pdb
-<<<<<<< HEAD
-C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
-=======
 C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.food_Itemreplacedmenu_item.resources
 C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
->>>>>>> eaba87d9a5f608af85e2ab3fa743d7b5e3dd1977
+C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.food_Itemreplacedmenu_item.resources
