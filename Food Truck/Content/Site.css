@@ -1,7 +1,6 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-image: url('Pictures/seigaiha.png');
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -28,7 +27,28 @@ textarea {
     margin: 40px;
     align-content: center;
 }
-.welcome{
+.parallax-bg2.img
+{
+    padding: 20px;
+    margin: 10px;
+}
+#welcome
+{
     padding: 10px;
+    margin-top: 30px;
+}
+.container#customerTestimonials
+{
+    margin-top: 40px;
     margin-bottom: 40px;
+}
+#socialMediaHeader
+{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.row#socialMediaImages
+{
+    padding: 10px;
+    margin: 10px;
 }

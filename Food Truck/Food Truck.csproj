@@ -216,11 +216,13 @@
     <Content Include="Content\Pictures\FoodTruck0.jpg" />
     <Content Include="Content\Pictures\FoodTruck1.jpg" />
     <Content Include="Content\Pictures\FoodTruck2.jpg" />
+    <Content Include="Content\Pictures\frontcover.jpg" />
     <Content Include="Content\Pictures\GoogleFoodTruck.png" />
     <Content Include="Content\Pictures\Harambe.jpg" />
     <Content Include="Content\Pictures\InstagramFoodTruck.png" />
     <Content Include="Content\Pictures\JessicaAlba.png" />
     <Content Include="Content\Pictures\JohnCena.jpg" />
+    <Content Include="Content\Pictures\KenBone.jpg" />
     <Content Include="Content\Pictures\LinkedinFoodTruck.png" />
     <Content Include="Content\Pictures\seigaiha.png" />
     <Content Include="Content\Pictures\TwitterFoodTruck.png" />
@@ -297,6 +299,7 @@
     <Content Include="Views\Menu\Details.cshtml" />
     <Content Include="Views\Menu\Edit.cshtml" />
     <Content Include="Views\Menu\Index.cshtml" />
+    <Content Include="Views\Menu\Index - Copy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
