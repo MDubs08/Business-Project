@@ -12,13 +12,13 @@ namespace Food_Truck.Models
         [Key]
 
         public int ID { get; set; }
-        [Display(Name = "Item name")]
-        public string Name { get; set; }
-        [Display(Name = "Sale Price")]
-        public decimal Sale_Price { get; set; }
+
+        [ForeignKey("Food_Item")]
+        public int Food_ItemID { get; set; }
+        public virtual Food_Item Food_Item { get; set; }
 
         [ForeignKey("Menu")]
         public int MenuID { get; set; }
-        public Menu Menu { get; set; }
+        public virtual Menu Menu { get; set; }
     }
 }
