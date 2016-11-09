@@ -211,7 +211,6 @@ C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck
 C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csproj.GenerateResource.Cache
 C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.dll
 C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.pdb
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\bin\roslyn\csc.exe
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -285,3 +284,4 @@ C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Deb
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food Truck.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food Truck.pdb
 C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.food_Itemreplacedmenu_item.resources
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache

@@ -1,0 +1,43 @@
+﻿@model Food_Truck.Models.Menu_Item
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Menu_Item Details</h2>
+
+<div>
+    <h4>Menu_Item</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Menu.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Menu.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Food_Item.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Food_Item.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Food_Item.Sale_Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Food_Item.Sale_Price)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

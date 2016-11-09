@@ -168,10 +168,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Food_ItemController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InventoryController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\Menu_ItemController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\SchedulesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -304,7 +306,18 @@
     <Content Include="Views\Menu\Details.cshtml" />
     <Content Include="Views\Menu\Edit.cshtml" />
     <Content Include="Views\Menu\Index.cshtml" />
-    <Content Include="Views\Menu\Index - Copy.cshtml" />
+    <Content Include="Views\Menu\Owner.cshtml" />
+    <Content Include="Views\Menu_Item\Create.cshtml" />
+    <Content Include="Views\Menu_Item\Delete.cshtml" />
+    <Content Include="Views\Menu_Item\Details.cshtml" />
+    <Content Include="Views\Menu_Item\Edit.cshtml" />
+    <Content Include="Views\Menu_Item\Index.cshtml" />
+    <Content Include="Views\Menu_Item\Owner.cshtml" />
+    <Content Include="Views\Food_Item\Create.cshtml" />
+    <Content Include="Views\Food_Item\Delete.cshtml" />
+    <Content Include="Views\Food_Item\Details.cshtml" />
+    <Content Include="Views\Food_Item\Edit.cshtml" />
+    <Content Include="Views\Food_Item\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
