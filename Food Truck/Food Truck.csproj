@@ -169,6 +169,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AddressesController.cs" />
+    <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\Food_ItemController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\IngredientsController.cs" />
@@ -198,10 +199,19 @@
     <Compile Include="Migrations\201611091610511_food_Item replaced menu_item.Designer.cs">
       <DependentUpon>201611091610511_food_Item replaced menu_item.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611101519428_created employee table.cs" />
+    <Compile Include="Migrations\201611101519428_created employee table.Designer.cs">
+      <DependentUpon>201611101519428_created employee table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611101530027_added foreign key to truck on employee.cs" />
+    <Compile Include="Migrations\201611101530027_added foreign key to truck on employee.Designer.cs">
+      <DependentUpon>201611101530027_added foreign key to truck on employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\City.cs" />
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Ingredient.cs" />
     <Compile Include="Models\Inventory.cs" />
@@ -360,6 +370,11 @@
     <Content Include="Views\TruckInventories\Details.cshtml" />
     <Content Include="Views\TruckInventories\Edit.cshtml" />
     <Content Include="Views\TruckInventories\Index.cshtml" />
+    <Content Include="Views\Employees\Create.cshtml" />
+    <Content Include="Views\Employees\Delete.cshtml" />
+    <Content Include="Views\Employees\Details.cshtml" />
+    <Content Include="Views\Employees\Edit.cshtml" />
+    <Content Include="Views\Employees\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -381,6 +396,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611091610511_food_Item replaced menu_item.resx">
       <DependentUpon>201611091610511_food_Item replaced menu_item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611101519428_created employee table.resx">
+      <DependentUpon>201611101519428_created employee table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611101530027_added foreign key to truck on employee.resx">
+      <DependentUpon>201611101530027_added foreign key to truck on employee.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
