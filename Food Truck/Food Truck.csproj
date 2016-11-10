@@ -206,10 +206,14 @@
     <Compile Include="Migrations\201611101530027_added foreign key to truck on employee.cs" />
     <Compile Include="Migrations\201611101530027_added foreign key to truck on employee.Designer.cs">
       <DependentUpon>201611101530027_added foreign key to truck on employee.cs</DependentUpon>
-	</Compile>
+    </Compile>
     <Compile Include="Migrations\201611101756162_description for food item.cs" />
     <Compile Include="Migrations\201611101756162_description for food item.Designer.cs">
       <DependentUpon>201611101756162_description for food item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611102048356_update.cs" />
+    <Compile Include="Migrations\201611102048356_update.Designer.cs">
+      <DependentUpon>201611102048356_update.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -415,9 +419,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611101530027_added foreign key to truck on employee.resx">
       <DependentUpon>201611101530027_added foreign key to truck on employee.cs</DependentUpon>
-	</EmbeddedResource>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611101756162_description for food item.resx">
       <DependentUpon>201611101756162_description for food item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611102048356_update.resx">
+      <DependentUpon>201611102048356_update.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
