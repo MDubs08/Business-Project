@@ -45,7 +45,7 @@ namespace Food_Truck.Controllers
         [Authorize(Roles = "Admin, Owner")]
         public ActionResult Create()
         {
-            ViewBag.ApplicationUserId = new SelectList(db.ApplicationUsers, "Id", "Email");
+           // ViewBag.ApplicationUserId = new SelectList(db.ApplicationUsers, "Id", "Email");
             return View();
         }
 
@@ -54,15 +54,15 @@ namespace Food_Truck.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create([Bind(Include = "ID,Name,ApplicationUserId")] Employee employee, RegisterViewModel model)
+        public ActionResult Create([Bind(Include = "ID,Name")] Employee employee, RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
                 db.Employee.Add(employee);
                 ApplicationUserManager UserManager = HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
                 var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
-                var result = await UserManager.CreateAsync(user, model.Password);
-                await UserManager.AddToRoleAsync(user.Id, "Employee");
+                var result = UserManager.Create(user, model.Password);
+                UserManager.AddToRole(user.Id, "Employee");
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
