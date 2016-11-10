@@ -36,6 +36,7 @@ namespace Food_Truck.Controllers
         }
 
         // GET: Schedules/Create
+        [Authorize(Roles = "Admin, Owner")]
         public ActionResult Create()
         {
             return View();
@@ -59,6 +60,7 @@ namespace Food_Truck.Controllers
         }
 
         // GET: Schedules/Edit/5
+        [Authorize(Roles = "Admin, Owner")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -90,6 +92,7 @@ namespace Food_Truck.Controllers
         }
 
         // GET: Schedules/Delete/5
+        [Authorize(Roles = "Admin, Owner")]
         public ActionResult Delete(int? id)
         {
             if (id == null)

@@ -1,0 +1,42 @@
+﻿@model Food_Truck.Models.ScheduleLocation
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ScheduleLocation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Location.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Schedule.ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Schedule.ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Truck.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Truck.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

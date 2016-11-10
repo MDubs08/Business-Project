@@ -168,14 +168,21 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AddressesController.cs" />
     <Compile Include="Controllers\Food_ItemController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IngredientsController.cs" />
     <Compile Include="Controllers\InventoryController.cs" />
+    <Compile Include="Controllers\LocationsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\Menu_ItemController.cs" />
+    <Compile Include="Controllers\OrderDetailsController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
+    <Compile Include="Controllers\ScheduleLocationsController.cs" />
     <Compile Include="Controllers\SchedulesController.cs" />
+    <Compile Include="Controllers\TruckInventoriesController.cs" />
+    <Compile Include="Controllers\TrucksController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -190,6 +197,10 @@
     <Compile Include="Migrations\201611091610511_food_Item replaced menu_item.cs" />
     <Compile Include="Migrations\201611091610511_food_Item replaced menu_item.Designer.cs">
       <DependentUpon>201611091610511_food_Item replaced menu_item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611101756162_description for food item.cs" />
+    <Compile Include="Migrations\201611101756162_description for food item.Designer.cs">
+      <DependentUpon>201611101756162_description for food item.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -223,6 +234,8 @@
     <Content Include="Content\Pictures\FoodTruck0.jpg" />
     <Content Include="Content\Pictures\FoodTruck1.jpg" />
     <Content Include="Content\Pictures\FoodTruck2.jpg" />
+    <Content Include="Content\Pictures\Food\BurgerHeader.jpg" />
+    <Content Include="Content\Pictures\Food\classic.jpg" />
     <Content Include="Content\Pictures\frontcover.jpg" />
     <Content Include="Content\Pictures\GoogleFoodTruck.png" />
     <Content Include="Content\Pictures\Harambe.jpg" />
@@ -231,9 +244,12 @@
     <Content Include="Content\Pictures\JohnCena.jpg" />
     <Content Include="Content\Pictures\KenBone.jpg" />
     <Content Include="Content\Pictures\LinkedinFoodTruck.png" />
+    <Content Include="Content\Pictures\money.jpg" />
+    <Content Include="Content\Pictures\schedule.jpg" />
     <Content Include="Content\Pictures\seigaiha.png" />
     <Content Include="Content\Pictures\TwitterFoodTruck.png" />
     <Content Include="Content\Pictures\YoutubeFoodTruck.png" />
+    <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -251,6 +267,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\site.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -318,7 +335,47 @@
     <Content Include="Views\Food_Item\Details.cshtml" />
     <Content Include="Views\Food_Item\Edit.cshtml" />
     <Content Include="Views\Food_Item\Index.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Inventory\AccessDenied.cshtml" />
+=======
+    <Content Include="Views\ScheduleLocations\Create.cshtml" />
+    <Content Include="Views\ScheduleLocations\Delete.cshtml" />
+    <Content Include="Views\ScheduleLocations\Details.cshtml" />
+    <Content Include="Views\ScheduleLocations\Edit.cshtml" />
+    <Content Include="Views\ScheduleLocations\Index.cshtml" />
+    <Content Include="Views\Addresses\Create.cshtml" />
+    <Content Include="Views\Addresses\Delete.cshtml" />
+    <Content Include="Views\Addresses\Details.cshtml" />
+    <Content Include="Views\Addresses\Edit.cshtml" />
+    <Content Include="Views\Addresses\Index.cshtml" />
+    <Content Include="Views\Ingredients\Create.cshtml" />
+    <Content Include="Views\Ingredients\Delete.cshtml" />
+    <Content Include="Views\Ingredients\Details.cshtml" />
+    <Content Include="Views\Ingredients\Edit.cshtml" />
+    <Content Include="Views\Ingredients\Index.cshtml" />
+    <Content Include="Views\Locations\Create.cshtml" />
+    <Content Include="Views\Locations\Delete.cshtml" />
+    <Content Include="Views\Locations\Details.cshtml" />
+    <Content Include="Views\Locations\Edit.cshtml" />
+    <Content Include="Views\Locations\Index.cshtml" />
+    <Content Include="Views\OrderDetails\Create.cshtml" />
+    <Content Include="Views\OrderDetails\Delete.cshtml" />
+    <Content Include="Views\OrderDetails\Details.cshtml" />
+    <Content Include="Views\OrderDetails\Edit.cshtml" />
+    <Content Include="Views\OrderDetails\Index.cshtml" />
+    <Content Include="Views\Trucks\Create.cshtml" />
+    <Content Include="Views\Trucks\Delete.cshtml" />
+    <Content Include="Views\Trucks\Details.cshtml" />
+    <Content Include="Views\Trucks\Edit.cshtml" />
+    <Content Include="Views\Trucks\Index.cshtml" />
+    <Content Include="Views\TruckInventories\Create.cshtml" />
+    <Content Include="Views\TruckInventories\Delete.cshtml" />
+    <Content Include="Views\TruckInventories\Details.cshtml" />
+    <Content Include="Views\TruckInventories\Edit.cshtml" />
+    <Content Include="Views\TruckInventories\Index.cshtml" />
+    <Content Include="Views\ScheduleLocations\Schedule.cshtml" />
+    <Content Include="Views\Menu_Item\Menu.cshtml" />
+>>>>>>> 3cda70860041e36fb9e8f6265a1e5a367577fedb
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -340,6 +397,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611091610511_food_Item replaced menu_item.resx">
       <DependentUpon>201611091610511_food_Item replaced menu_item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611101756162_description for food item.resx">
+      <DependentUpon>201611101756162_description for food item.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

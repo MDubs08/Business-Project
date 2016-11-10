@@ -5,15 +5,13 @@
 }
 
 <h2>Owner</h2>
+@Html.ActionLink("Add Items to Menu", "Create", "Menu_Item")
 <div class="jumbotron-fluid">
     <div class="row">
         <div class="col-sm-offset-1 col-sm-4 ">
             <h3>Menus</h3>
             <p>
                 @Html.ActionLink("Create New", "Create", "Menu")
-            </p>
-            <p>
-                @Html.ActionLink("Add Items to Menu", "Create", "Menu_Item")
             </p>
             <table class="table">
                 <tr>

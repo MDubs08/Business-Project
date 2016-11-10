@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Food_Truck.Models.ScheduleLocation>
+
+@{
+    ViewBag.Title = "Schedule";
+}
+
+<div id="schedule" class="container bg-overlay">
+    <div class="row text-center">
+        <h1>Schedule</h1>
+        <br>
+        <h4>
+            You can find us <strong>anywhere</strong>!<br>
+            As long as it is one of the locations below.
+        </h4>
+        <br><br>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Location</h3>
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Location.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Location.Address)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Location.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Location.Address)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="col-sm-offset-4 col-sm-4">
+            <h3>Hours</h3>
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Schedule.StartTime)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Schedule.EndTime)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Schedule.StartTime)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Schedule.EndTime)
+                        </td>
+                        <td></td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+

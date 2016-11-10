@@ -4,36 +4,73 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Schedule</h2>
+<div id="schedule" class="container bg-overlay">
+    <div class="row text-center">
+        <h1>Schedule</h1>
+        <br>
+        <h4>
+            You can find us <strong>anywhere</strong>!<br>
+            As long as it is one of the locations below.
+        </h4>
+        <br><br>
+    </div>
+</div>
+<div id="scheduleLayout" class="container">
+    <div class="row">
+        <div class="col-sm-offset-2 col sm-4">
+            <h2><% ViewBag.TruckName %></h2>
+            <p>Hours: </p>
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.StartTime)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.EndTime)
+                    </th>
+                    <th></th>
+                </tr>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.StartTime)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.EndTime)
-        </th>
-        <th></th>
-    </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StartTime)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.EndTime)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="col-sm-offset-2 col sm-4">
+            <h2><% ViewBag.TruckName %></h2>
+            <p>Hours: </p>
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.StartTime)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.EndTime)
+                    </th>
+                    <th></th>
+                </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.StartTime)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.EndTime)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
-        </td>
-    </tr>
-}
-
-</table>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StartTime)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.EndTime)
+                        </td>
+                    </tr>
+                }
+            </table>
+            <h2>Location: </h2>
+        </div>
+    </div>
+</div>

@@ -15,6 +15,7 @@ namespace Food_Truck.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Menu_Item
+        [Authorize(Roles = "Admin, Owner")]
         public ActionResult Index()
         {
             var menu_Item = db.Menu_Item.Include(m => m.Food_Item).Include(m => m.Menu);
@@ -27,7 +28,14 @@ namespace Food_Truck.Controllers
             return View(menu_Item.ToList());
         }
 
+        public ActionResult Menu()
+        {
+            var menu_Item = db.Menu_Item.Include(m => m.Food_Item).Include(m => m.Menu);
+            return View(menu_Item.ToList());
+        }
+
         // GET: Menu_Item/Details/5
+        [Authorize(Roles = "Admin, Owner")]
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -43,6 +51,7 @@ namespace Food_Truck.Controllers
         }
 
         // GET: Menu_Item/Create
+        [Authorize(Roles = "Admin, Owner")]
         public ActionResult Create()
         {
             ViewBag.Food_ItemID = new SelectList(db.Food_Item, "ID", "Name");
@@ -70,6 +79,7 @@ namespace Food_Truck.Controllers
         }
 
         // GET: Menu_Item/Edit/5
+        [Authorize(Roles = "Admin, Owner")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -105,6 +115,7 @@ namespace Food_Truck.Controllers
         }
 
         // GET: Menu_Item/Delete/5
+        [Authorize(Roles = "Admin, Owner")]
         public ActionResult Delete(int? id)
         {
             if (id == null)

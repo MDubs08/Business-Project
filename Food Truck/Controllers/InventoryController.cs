@@ -15,6 +15,7 @@ namespace Food_Truck.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Inventory
+        [Authorize(Roles = "Admin, Owner, Employee")]
         public ActionResult Index()
         {
             if ((User.IsInRole("Admin")) || (User.IsInRole("Owner")))
@@ -28,6 +29,7 @@ namespace Food_Truck.Controllers
         }
 
         // GET: Inventory/Details/5
+        [Authorize(Roles = "Admin, Owner, Employee")]
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -43,6 +45,7 @@ namespace Food_Truck.Controllers
         }
 
         // GET: Inventory/Create
+        [Authorize(Roles = "Admin, Owner, Employee")]
         public ActionResult Create()
         {
             return View();
@@ -66,6 +69,7 @@ namespace Food_Truck.Controllers
         }
 
         // GET: Inventory/Edit/5
+        [Authorize(Roles = "Admin, Owner, Employee")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -97,6 +101,7 @@ namespace Food_Truck.Controllers
         }
 
         // GET: Inventory/Delete/5
+        [Authorize(Roles = "Admin, Owner, Employee")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -112,6 +117,7 @@ namespace Food_Truck.Controllers
         }
 
         // POST: Inventory/Delete/5
+        [Authorize(Roles = "Admin, Owner, Employee")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)

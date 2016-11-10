@@ -17,6 +17,14 @@ namespace Food_Truck.Controllers
         // GET: Menu
         public ActionResult Index()
         {
+            if(User.IsInRole("Admin") || User.IsInRole("Owner"))
+            {
+                Response.Redirect("#Menu_Item/Owner");
+            }
+            else
+            {
+                
+            }
             return View(db.Menu.ToList());
         }
 
@@ -36,6 +44,7 @@ namespace Food_Truck.Controllers
         }
 
         // GET: Menu/Create
+        [Authorize(Roles = "Admin, Owner")]
         public ActionResult Create()
         {
             return View();
@@ -59,6 +68,7 @@ namespace Food_Truck.Controllers
         }
 
         // GET: Menu/Edit/5
+        [Authorize(Roles = "Admin, Owner")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -90,6 +100,7 @@ namespace Food_Truck.Controllers
         }
 
         // GET: Menu/Delete/5
+        [Authorize(Roles = "Admin, Owner")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
