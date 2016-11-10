@@ -4,36 +4,20 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Orders</h2>
+<div id="orders" class="container bg-overlay">
+    <div class="row text-center">
+        <h1>Order</h1>
+        <br>
+        <h4>
+            You can either check out or start a new order.<br>
+            Either way, we <strong>will</strong> get your money!
+        </h4>
+        <br><br>
+    </div>
+</div>
+<div class="container" id="currentOrder">
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Truck.Name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Date)
-        </th>
-        <th></th>
-    </tr>
+</div>
+<div class="container" id="payments">
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Truck.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Date)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
-        </td>
-    </tr>
-}
-
-</table>
+</div>

@@ -21,6 +21,12 @@ namespace Food_Truck.Controllers
             return View(scheduleLocation.ToList());
         }
 
+        public ActionResult Schedule()
+        {
+            var scheduleLocation = db.ScheduleLocation.Include(s => s.Location).Include(s => s.Schedule).Include(s => s.Truck);
+            return View(scheduleLocation.ToList());
+        }
+
         // GET: ScheduleLocations/Details/5
         public ActionResult Details(int? id)
         {

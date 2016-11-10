@@ -28,6 +28,12 @@ namespace Food_Truck.Controllers
             return View(menu_Item.ToList());
         }
 
+        public ActionResult Menu()
+        {
+            var menu_Item = db.Menu_Item.Include(m => m.Food_Item).Include(m => m.Menu);
+            return View(menu_Item.ToList());
+        }
+
         // GET: Menu_Item/Details/5
         [Authorize(Roles = "Admin, Owner")]
         public ActionResult Details(int? id)

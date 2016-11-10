@@ -1,7 +1,7 @@
-﻿@model IEnumerable<Food_Truck.Models.Schedule>
+﻿@model IEnumerable<Food_Truck.Models.ScheduleLocation>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Schedule";
 }
 
 <div id="schedule" class="container bg-overlay">
@@ -15,18 +15,17 @@
         <br><br>
     </div>
 </div>
-<div id="scheduleLayout" class="container">
+<div class="container">
     <div class="row">
-        <div class="col-sm-offset-2 col sm-4">
-            <h2><% ViewBag.TruckName %></h2>
-            <p>Hours: </p>
+        <div class="col-sm-4">
+            <h3>Location</h3>
             <table class="table">
                 <tr>
                     <th>
-                        @Html.DisplayNameFor(model => model.StartTime)
+                        @Html.DisplayNameFor(model => model.Location.Name)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.EndTime)
+                        @Html.DisplayNameFor(model => model.Location.Address)
                     </th>
                     <th></th>
                 </tr>
@@ -35,25 +34,24 @@
                 {
                     <tr>
                         <td>
-                            @Html.DisplayFor(modelItem => item.StartTime)
+                            @Html.DisplayFor(modelItem => item.Location.Name)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.EndTime)
+                            @Html.DisplayFor(modelItem => item.Location.Address)
                         </td>
                     </tr>
                 }
             </table>
         </div>
-        <div class="col-sm-offset-2 col sm-4">
-            <h2><% ViewBag.TruckName %></h2>
-            <p>Hours: </p>
+        <div class="col-sm-offset-4 col-sm-4">
+            <h3>Hours</h3>
             <table class="table">
                 <tr>
                     <th>
-                        @Html.DisplayNameFor(model => model.StartTime)
+                        @Html.DisplayNameFor(model => model.Schedule.StartTime)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.EndTime)
+                        @Html.DisplayNameFor(model => model.Schedule.EndTime)
                     </th>
                     <th></th>
                 </tr>
@@ -62,15 +60,16 @@
                 {
                     <tr>
                         <td>
-                            @Html.DisplayFor(modelItem => item.StartTime)
+                            @Html.DisplayFor(modelItem => item.Schedule.StartTime)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.EndTime)
+                            @Html.DisplayFor(modelItem => item.Schedule.EndTime)
                         </td>
+                        <td></td>
                     </tr>
                 }
             </table>
-            <h2>Location: </h2>
         </div>
     </div>
 </div>
+

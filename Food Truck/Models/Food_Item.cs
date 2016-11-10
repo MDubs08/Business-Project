@@ -16,5 +16,7 @@ namespace Food_Truck.Models
         public string Name { get; set; }
         [Display(Name = "Sale Price")]
         public decimal Sale_Price { get; set; }
+        [Display(Name = "Description")]
+        public string Description { get; set; }
     }
 }
