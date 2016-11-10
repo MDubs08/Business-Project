@@ -318,6 +318,7 @@
     <Content Include="Views\Food_Item\Details.cshtml" />
     <Content Include="Views\Food_Item\Edit.cshtml" />
     <Content Include="Views\Food_Item\Index.cshtml" />
+    <Content Include="Views\Inventory\AccessDenied.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
