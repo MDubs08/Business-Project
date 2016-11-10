@@ -18,7 +18,14 @@ namespace Food_Truck.Controllers
         [Authorize(Roles = "Admin, Owner, Employee")]
         public ActionResult Index()
         {
-            return View(db.Inventory.ToList());
+            if ((User.IsInRole("Admin")) || (User.IsInRole("Owner")))
+            {
+                return View(db.Inventory.ToList());
+            }
+            else
+            {
+                return View("AccessDenied");
+            }
         }
 
         // GET: Inventory/Details/5

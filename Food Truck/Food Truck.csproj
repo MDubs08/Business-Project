@@ -199,7 +199,6 @@
     <Compile Include="Migrations\201611091610511_food_Item replaced menu_item.Designer.cs">
       <DependentUpon>201611091610511_food_Item replaced menu_item.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Migrations\201611101519428_created employee table.cs" />
     <Compile Include="Migrations\201611101519428_created employee table.Designer.cs">
       <DependentUpon>201611101519428_created employee table.cs</DependentUpon>
@@ -207,11 +206,9 @@
     <Compile Include="Migrations\201611101530027_added foreign key to truck on employee.cs" />
     <Compile Include="Migrations\201611101530027_added foreign key to truck on employee.Designer.cs">
       <DependentUpon>201611101530027_added foreign key to truck on employee.cs</DependentUpon>
-=======
     <Compile Include="Migrations\201611101756162_description for food item.cs" />
     <Compile Include="Migrations\201611101756162_description for food item.Designer.cs">
       <DependentUpon>201611101756162_description for food item.cs</DependentUpon>
->>>>>>> 3cda70860041e36fb9e8f6265a1e5a367577fedb
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -347,6 +344,7 @@
     <Content Include="Views\Food_Item\Details.cshtml" />
     <Content Include="Views\Food_Item\Edit.cshtml" />
     <Content Include="Views\Food_Item\Index.cshtml" />
+    <Content Include="Views\Inventory\AccessDenied.cshtml" />
     <Content Include="Views\ScheduleLocations\Create.cshtml" />
     <Content Include="Views\ScheduleLocations\Delete.cshtml" />
     <Content Include="Views\ScheduleLocations\Details.cshtml" />
@@ -382,16 +380,13 @@
     <Content Include="Views\TruckInventories\Details.cshtml" />
     <Content Include="Views\TruckInventories\Edit.cshtml" />
     <Content Include="Views\TruckInventories\Index.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Employees\Create.cshtml" />
     <Content Include="Views\Employees\Delete.cshtml" />
     <Content Include="Views\Employees\Details.cshtml" />
     <Content Include="Views\Employees\Edit.cshtml" />
     <Content Include="Views\Employees\Index.cshtml" />
-=======
     <Content Include="Views\ScheduleLocations\Schedule.cshtml" />
     <Content Include="Views\Menu_Item\Menu.cshtml" />
->>>>>>> 3cda70860041e36fb9e8f6265a1e5a367577fedb
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -414,16 +409,13 @@
     <EmbeddedResource Include="Migrations\201611091610511_food_Item replaced menu_item.resx">
       <DependentUpon>201611091610511_food_Item replaced menu_item.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\201611101519428_created employee table.resx">
       <DependentUpon>201611101519428_created employee table.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611101530027_added foreign key to truck on employee.resx">
       <DependentUpon>201611101530027_added foreign key to truck on employee.cs</DependentUpon>
-=======
     <EmbeddedResource Include="Migrations\201611101756162_description for food item.resx">
       <DependentUpon>201611101756162_description for food item.cs</DependentUpon>
->>>>>>> 3cda70860041e36fb9e8f6265a1e5a367577fedb
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
