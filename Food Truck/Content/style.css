@@ -38,6 +38,15 @@
     padding-top: 50px;
 }
 
+.col-sm-4#googleMap
+{
+    height: auto;
+    width: auto;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
 .thumbnail
 {
     margin-bottom: 20px;

@@ -391,7 +391,6 @@
     <Content Include="Views\Employees\Index.cshtml" />
     <Content Include="Views\ScheduleLocations\Schedule.cshtml" />
     <Content Include="Views\Menu_Item\Menu.cshtml" />
-    <Content Include="Views\Menu\Owner.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

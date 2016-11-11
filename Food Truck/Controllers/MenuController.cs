@@ -19,17 +19,12 @@ namespace Food_Truck.Controllers
         {
             if(User.IsInRole("Admin") || User.IsInRole("Owner"))
             {
-                Response.Redirect("#Menu_Item/Owner");
+                Response.Redirect("Menu_Item/Owner");
             }
             else
             {
-                
+                Response.Redirect("Menu_Item/Menu");                
             }
-            return View(db.Menu.ToList());
-        }
-
-        public ActionResult Owner()
-        {
             return View();
         }
 

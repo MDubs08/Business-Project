@@ -368,7 +368,7 @@ C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedforeignkeytotruckonemployee.resources
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.descriptionforfooditem.resources
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.update.resources
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.descriptionforfooditem.resources
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.update.resources
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
