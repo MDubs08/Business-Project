@@ -19,13 +19,12 @@ namespace Food_Truck.Controllers
         {
             if (User.IsInRole("Admin") || User.IsInRole("Owner"))
             {
-                Response.Redirect("ScheduleLocations/Index");
+                return Redirect("ScheduleLocations/Index");
             }
             else
             {
-                Response.Redirect("ScheduleLocations/Schedule");
+                return Redirect("ScheduleLocations/Schedule");
             }
-            return View(db.Schedule.ToList());
         }
 
         // GET: Schedules/Details/5
