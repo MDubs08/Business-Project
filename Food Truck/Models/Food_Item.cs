@@ -12,7 +12,7 @@ namespace Food_Truck.Models
         [Key]
 
         public int ID { get; set; }
-        [Display(Name = "Item name")]
+        [Display(Name = "Item Name")]
         public string Name { get; set; }
         [Display(Name = "Sale Price")]
         public decimal Sale_Price { get; set; }

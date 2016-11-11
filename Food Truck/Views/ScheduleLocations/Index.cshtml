@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Schedules</h2>
+<h2 margin="20px">Schedules</h2>
 <p>
     @Html.ActionLink("Add Items to Schedule", "Create", "ScheduleLocations")
 </p>
@@ -13,7 +13,7 @@
         <div class="col-sm-offset-1 col-sm-3">
             <h3>Locations</h3>
             <p>
-                @Html.ActionLink("Create New", "Create")
+                @Html.ActionLink("Create New", "Create", "Locations")
             </p>
             <table class="table">
                 <tr>
@@ -30,9 +30,9 @@
                             @Html.DisplayFor(modelItem => item.Location.Name)
                         </td>
                         <td>
-                            @Html.ActionLink("Edit", "Edit", "Location", new { id = item.ID }, null)
+                            @Html.ActionLink("Edit", "Edit", "Locations", new { id = item.ID }, null)
                             @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-                            @Html.ActionLink("Delete", "Delete", "Location", new { id = item.ID }, null)
+                            @Html.ActionLink("Delete", "Delete", "Locations", new { id = item.ID }, null)
                         </td>
                     </tr>
                 }
@@ -41,7 +41,7 @@
         <div class="col-sm-4">
             <h3>Schedule Times</h3>
             <p>
-                @Html.ActionLink("Create New", "Create", "Schedule")
+                @Html.ActionLink("Create New", "Create", "Schedules")
             </p>
             <table class="table">
                 <tr>
@@ -64,9 +64,9 @@
                             @Html.DisplayFor(modelItem => item.Schedule.EndTime)
                         </td>
                         <td>
-                            @Html.ActionLink("Edit", "Edit", "Schedule", new { id = item.ID }, null) |
+                            @Html.ActionLink("Edit", "Edit", "Schedules", new { id = item.ID }, null) |
                             @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-                            @Html.ActionLink("Delete", "Delete", "Schedule", new { id = item.ID }, null)
+                            @Html.ActionLink("Delete", "Delete", "Schedules", new { id = item.ID }, null)
                         </td>
                     </tr>
                 }
@@ -75,7 +75,7 @@
         <div class="col-sm-3">
             <h3>Trucks</h3>
             <p>
-                @Html.ActionLink("Create New", "Create", "Truck")
+                @Html.ActionLink("Create New", "Create", "Trucks")
             </p>
             <table class="table">
                 <tr>
@@ -98,9 +98,9 @@
                             @Html.DisplayNameFor(model => model.Truck.Menu.Name)
                         </td>
                         <td>
-                            @Html.ActionLink("Edit", "Edit", "Truck", new { id = item.ID }, null) |
+                            @Html.ActionLink("Edit", "Edit", "Trucks", new { id = item.ID }, null) |
                             @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-                            @Html.ActionLink("Delete", "Delete", "Truck", new { id = item.ID }, null)
+                            @Html.ActionLink("Delete", "Delete", "Trucks", new { id = item.ID }, null)
                         </td>
                     </tr>
                 }

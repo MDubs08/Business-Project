@@ -28,6 +28,11 @@ namespace Food_Truck.Controllers
             return View(db.Menu.ToList());
         }
 
+        public ActionResult Owner()
+        {
+            return View();
+        }
+
         // GET: Menu/Details/5
         public ActionResult Details(int? id)
         {

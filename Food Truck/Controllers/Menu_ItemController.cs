@@ -18,18 +18,34 @@ namespace Food_Truck.Controllers
         [Authorize(Roles = "Admin, Owner")]
         public ActionResult Index()
         {
+            if (User.IsInRole("Admin") || User.IsInRole("Owner"))
+            {
+                Redirect("#Menu_Item/Owner");
+            }
+            else
+            {
+
+            }
             var menu_Item = db.Menu_Item.Include(m => m.Food_Item).Include(m => m.Menu);
             return View(menu_Item.ToList());
         }
 
         public ActionResult Owner()
         {
-            var menu_Item = from x in db.Menu_Item select x;
+            var menu_Item = db.Menu_Item.Include(m => m.Food_Item).Include(m => m.Menu);
             return View(menu_Item.ToList());
         }
 
         public ActionResult Menu()
         {
+            if (User.IsInRole("Admin") || User.IsInRole("Owner"))
+            {
+                return RedirectToAction("Owner");
+            }
+            else
+            {
+
+            }
             var menu_Item = db.Menu_Item.Include(m => m.Food_Item).Include(m => m.Menu);
             return View(menu_Item.ToList());
         }

@@ -10,7 +10,9 @@ namespace Food_Truck.Models
     {
         [Key]
         public int ID { get; set; }
+        [Display(Name = "Start Time")]
         public DateTime StartTime { get; set; }
+        [Display(Name = "End Time")]
         public DateTime EndTime { get; set; }
     }
 }

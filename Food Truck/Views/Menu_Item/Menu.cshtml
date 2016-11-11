@@ -21,7 +21,7 @@
             <img class="group list-group-image" src="~/Content/Pictures/Food/classic.jpg" alt="" />
             <div class="caption">
                 <h4 id="menuItemTitle" class="group inner list-group-item-heading">@Html.DisplayNameFor(model => model.Food_Item.Name)</h4>
-                <p id="menuItemDescription" class="group inner list-group-item-text"></p>
+                <p id="menuItemDescription" class="group inner list-group-item-text">@Html.DisplayNameFor(model => model.Food_Item.Description)</p>
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-2">
@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-md-1"></div>
                     <div class="col-md-4">
-                        <a class="btn btn-success" id="order">Add to Order</a>
+                        <a class="btn btn-success" id="order" onclick="addToOrder()">Add to Order</a>
                     </div>
                     <div class="col-md-4">
                         <div class="input-append spinner " data-trigger="spinner">
