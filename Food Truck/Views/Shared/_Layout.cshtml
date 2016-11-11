@@ -3,6 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="867485685499-h23itns65lq3cutpikhj6qmqbf1cie8p.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <title>@ViewBag.Title - The Patty Wagon</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
@@ -23,8 +26,8 @@
             <div class="navbar-collapse collapse" id="bs-navbar">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Menu", "Menu", "Menu_Item")</li>
-                    <li>@Html.ActionLink("Schedule", "Schedule", "ScheduleLocations")</li>
+                    <li>@Html.ActionLink("Menu", "Index", "Menu")</li>
+                    <li>@Html.ActionLink("Schedule", "Index", "Schedules")</li>
                     <li>@Html.ActionLink("Order", "Index", "Orders")</li>
                     <li>@Html.ActionLink("Inventory", "Index", "Inventory")</li>
                     <li>@Html.ActionLink("Employee", "Index", "Employees")</li>
@@ -36,6 +39,7 @@
     <div class="container-fluid">
         @RenderBody()
         <hr />
+        <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
         <footer>
             <p>&copy; @DateTime.Now.Year - The Patty Wagon</p>
         </footer>

@@ -17,6 +17,14 @@ namespace Food_Truck.Controllers
         // GET: Schedules
         public ActionResult Index()
         {
+            if (User.IsInRole("Admin") || User.IsInRole("Owner"))
+            {
+                Response.Redirect("ScheduleLocations/Index");
+            }
+            else
+            {
+                Response.Redirect("ScheduleLocations/Schedule");
+            }
             return View(db.Schedule.ToList());
         }
 

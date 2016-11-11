@@ -4,15 +4,13 @@
     ViewBag.Title = "Owner";
 }
 
-<h2>Owner</h2>
-<p>@Html.ActionLink("Add Items to Menu", "Create", "Menu_Item")</p>
-<p>@Html.ActionLink("View Menu", "Owner", "Menu")</p>
+<h2>Menus</h2>
 <div class="container">
     <div class="row">
-        <div class="col-sm-offset-1 col-sm-4 ">
+        <div class="col-sm-6" align="center">
             <h3>Menus</h3>
             <p>
-                @Html.ActionLink("Create New", "Create", "Menu")
+                @Html.ActionLink("Create Menu", "Create", "Menu")
             </p>
             <table class="table">
                 <tr>
@@ -37,10 +35,10 @@
             </table>
         </div>
 
-        <div class="col-sm-offset-1 col-sm-4">
+        <div class="col-sm-6" align="center">
             <h3>Menu Items</h3>
             <p>
-                @Html.ActionLink("Create New", "Create", "Food_Item")
+                @Html.ActionLink("Create Menu Item", "Create", "Food_Item")
             </p>
             <table class="table">
                 <tr>
@@ -49,6 +47,9 @@
                     </th>
                     <th>
                         @Html.DisplayNameFor(model => model.Food_Item.Sale_Price)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Food_Item.Description)
                     </th>
                     <th></th>
                 </tr>
@@ -63,6 +64,9 @@
                             @Html.DisplayFor(modelItem => item.Food_Item.Sale_Price)
                         </td>
                         <td>
+                            @Html.DisplayFor(modelItem => item.Food_Item.Description)
+                        </td>
+                        <td>
                             @Html.ActionLink("Edit", "Edit", "Food_Item", new { id = item.ID }, null) |
                             @Html.ActionLink("Details", "Details", new { id = item.ID }) |
                             @Html.ActionLink("Delete", "Delete", "Food_Item", new { id = item.ID }, null)
@@ -72,4 +76,49 @@
             </table>
         </div>
     </div>
+</div>
+<div class="container">
+    <h3 align="center">Full Menu</h3>
+    <p align="center">@Html.ActionLink("View Menu", "Menu", "Menu_Item")</p>
+    <table class="table" align="center">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Menu.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Food_Item.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Food_Item.Sale_Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Food_Item.Description)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Menu.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Food_Item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Food_Item.Sale_Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Food_Item.Description)
+                </td>
+                <td>
+                    @Html.ActionLink("Add Items to Menu", "Create", "Menu_Item") |
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }, null) |
+                    @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID }, null)
+                </td>
+            </tr>
+        }
+    </table>
 </div>

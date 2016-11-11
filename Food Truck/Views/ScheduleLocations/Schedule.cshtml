@@ -17,34 +17,13 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-sm-4">
-            <h3>Location</h3>
-            <table class="table">
-                <tr>
-                    <th>
-                        @Html.DisplayNameFor(model => model.Location.Name)
-                    </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.Location.Address)
-                    </th>
-                    <th></th>
-                </tr>
-
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Location.Name)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Location.Address)
-                        </td>
-                    </tr>
-                }
-            </table>
+        <div class="col-sm-4" id="googleMap">
+            <h3 align="center">Locations</h3>
+            <iframe src="//www.google.com/maps/embed/v1/place?q=<!--Start Place Name-->Empire%20State%20Building<!--End Place Name-->&zoom=13&attribution_source=Google+Maps+Embed+API&attribution_web_url=https://developers.google.com/maps/documentation/embed/&key=AIzaSyDFr5dHDEoQSG10tHSM9zyr9riH7Twc01k" id="googleMap"></iframe>
         </div>
+
         <div class="col-sm-offset-4 col-sm-4">
-            <h3>Hours</h3>
+            <h3 align="center">Hours</h3>
             <table class="table">
                 <tr>
                     <th>

@@ -3,14 +3,13 @@ $(document).ready(function() {
     $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
 });
 
+window.onload = function () {
+    document.getElementById("addIngredient").onclick = addIngredient;
+    document.getElementById("addItem").onclick = addItem;
+}
+
+
 function addItem() {
-    $.ajax({
-        type: 'GET',
-        dataType: 'json',
-        url: 
-    })
-    
-    $.each()
     var item = '<div class="item add-on col-md-4">';
     item += '<div class="thumbnail">';
     item += '<img class="group list-group-image" src="~/Content/Pictures/Food/classic.jpg" alt="" />';
@@ -43,4 +42,16 @@ function addToOrder() {
     var orderItem = '<div class="col-md-4"></div>';
     orderItem += '';
     $('#currentOrder').html('<div class="container">' + orderItem + '</div>')
-}
+};
+
+function addIngredient() {
+    var ingredient = '<div class="form-group">';
+    ingredient += '@Html.ValidationSummary(true, "", new { @class = "text-danger" })';
+    ingredient += '<div class="form-group">';
+    ingredient += '@Html.LabelFor(model => model.InventoryID, "InventoryID", htmlAttributes: new { @class = "control-label col-md-2" })';
+    ingredient += '<div class="col-md-10">';
+    ingredient += '@Html.DropDownList("InventoryID", null, htmlAttributes: new { @class = "form-control" })';
+    ingredient += '@Html.ValidationMessageFor(model => model.InventoryID, "", new { @class = "text-danger" })';
+    ingredient += '</div></div>';
+    $('#addIngredients').html('<div class="form-group">' + ingredient +'<div>')
+};
