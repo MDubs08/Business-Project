@@ -13,7 +13,12 @@ namespace Food_Truck.Models
 
         public int ID { get; set; }
         [Display(Name = "Employee")]
-        public string Name { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        [Display (Name = "Email Address")]
+        [EmailAddress]
+        public string EmailAddress { get; set; }
+        public string AssignedPassword { get; set; }
 
         [ForeignKey("ApplicationUser")]
         public string ApplicationUserId { get; set; }
