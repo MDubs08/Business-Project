@@ -7,9 +7,6 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Food_Truck.Models;
-using Microsoft.AspNet.Identity;
-using System.Threading.Tasks;
-using Microsoft.AspNet.Identity.Owin;
 
 namespace Food_Truck.Controllers
 {
@@ -21,7 +18,7 @@ namespace Food_Truck.Controllers
         [Authorize(Roles = "Admin, Owner")]
         public ActionResult Index()
         {
-            var employee = db.Employee.Include(e => e.ApplicationUser);
+            var employee = db.Employee.Include(e => e.Truck);
             return View(employee.ToList());
         }
 
@@ -46,6 +43,7 @@ namespace Food_Truck.Controllers
         public ActionResult Create()
         {
            // ViewBag.ApplicationUserId = new SelectList(db.ApplicationUsers, "Id", "Email");
+            ViewBag.TruckId = new SelectList(db.Truck, "ID", "Name");
             return View();
         }
 
@@ -54,20 +52,17 @@ namespace Food_Truck.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Name")] Employee employee, RegisterViewModel model)
+        public ActionResult Create([Bind(Include = "ID,FirstName,LastName,EmailAddress,AssignedPassword,TruckId")] Employee employee)
         {
             if (ModelState.IsValid)
             {
                 db.Employee.Add(employee);
-                ApplicationUserManager UserManager = HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
-                var result = UserManager.Create(user, model.Password);
-                UserManager.AddToRole(user.Id, "Employee");
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
             ViewBag.ApplicationUserId = new SelectList(db.ApplicationUsers, "Id", "Email", employee.ApplicationUserId);
+            ViewBag.TruckId = new SelectList(db.Truck, "ID", "Name", employee.TruckId);
             return View(employee);
         }
 
@@ -85,6 +80,7 @@ namespace Food_Truck.Controllers
                 return HttpNotFound();
             }
             ViewBag.ApplicationUserId = new SelectList(db.ApplicationUsers, "Id", "Email", employee.ApplicationUserId);
+            ViewBag.TruckId = new SelectList(db.Truck, "ID", "Name", employee.TruckId);
             return View(employee);
         }
 
@@ -93,7 +89,7 @@ namespace Food_Truck.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Name,ApplicationUserId")] Employee employee)
+        public ActionResult Edit([Bind(Include = "ID,FirstName,LastName,EmailAddress,AssignedPassword,ApplicationUserId,TruckId")] Employee employee)
         {
             if (ModelState.IsValid)
             {
@@ -102,6 +98,7 @@ namespace Food_Truck.Controllers
                 return RedirectToAction("Index");
             }
             ViewBag.ApplicationUserId = new SelectList(db.ApplicationUsers, "Id", "Email", employee.ApplicationUserId);
+            ViewBag.TruckId = new SelectList(db.Truck, "ID", "Name", employee.TruckId);
             return View(employee);
         }
 
