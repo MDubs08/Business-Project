@@ -12,6 +12,7 @@ namespace Food_Truck.Models
         [Key]
 
         public int ID { get; set; }
+        [Display(Name = "Menu")]
         public string Name { get; set; }
     }
 }

@@ -4,6 +4,13 @@ $(document).ready(function() {
 });
 
 function addItem() {
+    $.ajax({
+        type: 'GET',
+        dataType: 'json',
+        url: 
+    })
+    
+    $.each()
     var item = '<div class="item add-on col-md-4">';
     item += '<div class="thumbnail">';
     item += '<img class="group list-group-image" src="~/Content/Pictures/Food/classic.jpg" alt="" />';
@@ -29,9 +36,11 @@ function addItem() {
     item += '<span class="glyphicon glyphicon-chevron-up spinner"></span></a>';
     item += '<a href="javascript:;" class="spin-down" data-spin="down"><span class="glyphicon glyphicon-chevron-down spinner"></span></a>';
     item += '</div></div></div></div></div></div></div>';
+    $('#addItem').html('<div class="container">' + item + '</div>');
 };
 
 function addToOrder() {
     var orderItem = '<div class="col-md-4"></div>';
     orderItem += '';
+    $('#currentOrder').html('<div class="container">' + orderItem + '</div>')
 }

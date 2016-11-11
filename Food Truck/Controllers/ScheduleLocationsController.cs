@@ -23,6 +23,14 @@ namespace Food_Truck.Controllers
 
         public ActionResult Schedule()
         {
+            if (User.IsInRole("Admin") || User.IsInRole("Owner"))
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+
+            }
             var scheduleLocation = db.ScheduleLocation.Include(s => s.Location).Include(s => s.Schedule).Include(s => s.Truck);
             return View(scheduleLocation.ToList());
         }

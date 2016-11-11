@@ -337,7 +337,6 @@
     <Content Include="Views\Menu\Details.cshtml" />
     <Content Include="Views\Menu\Edit.cshtml" />
     <Content Include="Views\Menu\Index.cshtml" />
-    <Content Include="Views\Menu\Owner.cshtml" />
     <Content Include="Views\Menu_Item\Create.cshtml" />
     <Content Include="Views\Menu_Item\Delete.cshtml" />
     <Content Include="Views\Menu_Item\Details.cshtml" />
@@ -392,6 +391,7 @@
     <Content Include="Views\Employees\Index.cshtml" />
     <Content Include="Views\ScheduleLocations\Schedule.cshtml" />
     <Content Include="Views\Menu_Item\Menu.cshtml" />
+    <Content Include="Views\Menu\Owner.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
