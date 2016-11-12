@@ -318,6 +318,7 @@
     <Content Include="Content\Pictures\FoodTruck0.jpg" />
     <Content Include="Content\Pictures\FoodTruck1.jpg" />
     <Content Include="Content\Pictures\FoodTruck2.jpg" />
+    <Content Include="Content\Pictures\FoodTruck3.jpg" />
     <Content Include="Content\Pictures\Food\BurgerHeader.jpg" />
     <Content Include="Content\Pictures\Food\classic.jpg" />
     <Content Include="Content\Pictures\frontcover.jpg" />
