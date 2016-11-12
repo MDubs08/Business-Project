@@ -220,9 +220,6 @@ C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.update.resources
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
-<<<<<<< HEAD
 C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
-=======
 C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
->>>>>>> 360c78e980499e88e0f8643253334878b2fd44b1
