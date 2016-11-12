@@ -198,57 +198,7 @@ C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Food Truck.dll.config
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Food Truck.dll
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Food Truck.pdb
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Antlr3.Runtime.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\EntityFramework.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\EntityFramework.SqlServer.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Newtonsoft.Json.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Owin.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.Helpers.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.Mvc.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.Optimization.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.Razor.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.WebPages.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.WebPages.Razor.dll
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\WebGrease.dll
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.Helpers.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.Mvc.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.Optimization.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.Razor.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.WebPages.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\System.Web.WebPages.Razor.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Antlr3.Runtime.pdb
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Newtonsoft.Json.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\EntityFramework.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\EntityFramework.SqlServer.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.initialdrop.resources
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedroles.resources
@@ -270,6 +220,10 @@ C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.update.resources
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
+C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
 C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
 C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
 C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\GoogleMaps.LocationServices.dll
+C:\Users\cjgue\Documents\github\Business-Project\Food Truck\bin\GoogleMaps.LocationServices.dll
+C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache

@@ -7,6 +7,8 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Food_Truck.Models;
+using Microsoft.AspNet.Identity.Owin;
+using System.Threading.Tasks;
 
 namespace Food_Truck.Controllers
 {
@@ -43,7 +45,7 @@ namespace Food_Truck.Controllers
         public ActionResult Create()
         {
            // ViewBag.ApplicationUserId = new SelectList(db.ApplicationUsers, "Id", "Email");
-            ViewBag.TruckId = new SelectList(db.Truck, "ID", "Name");
+            //ViewBag.TruckId = new SelectList(db.Truck, "ID", "Name");
             return View();
         }
 
@@ -52,10 +54,18 @@ namespace Food_Truck.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,FirstName,LastName,EmailAddress,AssignedPassword,TruckId")] Employee employee)
+        public async Task<ActionResult> Create([Bind(Include = "ID,FirstName,LastName,EmailAddress,AssignedPassword")] Employee employee)
         {
             if (ModelState.IsValid)
             {
+                string email = employee.EmailAddress.ToString();
+                ApplicationUserManager UserManager = HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
+                var user = new ApplicationUser { UserName = email, Email = email };
+                var result = await UserManager.CreateAsync(user, employee.AssignedPassword);
+                await UserManager.AddToRoleAsync(user.Id, "Employee");
+                ApplicationUser employeeUser = db.Users.FirstOrDefault(x => x.UserName == email);
+                employee.ApplicationUserId = employeeUser.Id;
+                employee.ApplicationUser = employeeUser;
                 db.Employee.Add(employee);
                 db.SaveChanges();
                 return RedirectToAction("Index");

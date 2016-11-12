@@ -12,10 +12,10 @@ namespace Food_Truck.Models
         [Key]
 
         public int ID { get; set; }
-        [Display(Name = "Employee")]
+       // [Display(Name = "Employee Name")]
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        [Display (Name = "Email Address")]
+       // [Display (Name = "Email Address")]
         [EmailAddress]
         public string EmailAddress { get; set; }
         public string AssignedPassword { get; set; }
