@@ -15,14 +15,18 @@
         <br><br>
     </div>
 </div>
-<div class="container">
+<div class="container" id="truckLocations">
     <div class="row">
         <div class="col-sm-4" id="googleMap">
             <h3 align="center">Locations</h3>
-            <iframe src="//www.google.com/maps/embed/v1/place?q=<!--Start Place Name-->Empire%20State%20Building<!--End Place Name-->&zoom=13&attribution_source=Google+Maps+Embed+API&attribution_web_url=https://developers.google.com/maps/documentation/embed/&key=AIzaSyDFr5dHDEoQSG10tHSM9zyr9riH7Twc01k" id="googleMap"></iframe>
+            <iframe width="500"
+                    height="400"
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDFr5dHDEoQSG10tHSM9zyr9riH7Twc01k&q=Space+Needle,Seattle+WA" allowfullscreen>
+            </iframe>
         </div>
-
-        <div class="col-sm-offset-4 col-sm-4">
+        <div class="col-sm-4" id="hoursLocations"></div>
+        <div class="col-sm-offset-2 col-sm-4">
             <h3 align="center">Hours</h3>
             <table class="table">
                 <tr>
@@ -32,6 +36,7 @@
                     <th>
                         @Html.DisplayNameFor(model => model.Schedule.EndTime)
                     </th>
+                    <th></th>
                     <th></th>
                 </tr>
 

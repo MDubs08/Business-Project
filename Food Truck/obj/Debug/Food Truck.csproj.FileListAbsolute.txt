@@ -271,3 +271,5 @@ C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
 C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\GoogleMaps.LocationServices.dll

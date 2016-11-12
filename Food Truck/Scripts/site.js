@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 window.onload = function () {
     document.getElementById("addIngredient").onclick = addIngredient;
-    document.getElementById("addItem").onclick = addItem;
+    //document.getElementById("addItem").onclick = addItem;
 }
 
 
@@ -44,14 +44,3 @@ function addToOrder() {
     $('#currentOrder').html('<div class="container">' + orderItem + '</div>')
 };
 
-function addIngredient() {
-    var ingredient = '<div class="form-group">';
-    ingredient += '@Html.ValidationSummary(true, "", new { @class = "text-danger" })';
-    ingredient += '<div class="form-group">';
-    ingredient += '@Html.LabelFor(model => model.InventoryID, "InventoryID", htmlAttributes: new { @class = "control-label col-md-2" })';
-    ingredient += '<div class="col-md-10">';
-    ingredient += '@Html.DropDownList("InventoryID", null, htmlAttributes: new { @class = "form-control" })';
-    ingredient += '@Html.ValidationMessageFor(model => model.InventoryID, "", new { @class = "text-danger" })';
-    ingredient += '</div></div>';
-    $('#addIngredients').html('<div class="form-group">' + ingredient +'<div>')
-};
