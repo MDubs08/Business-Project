@@ -45,7 +45,7 @@ namespace Food_Truck.Controllers
         public ActionResult Create()
         {
            // ViewBag.ApplicationUserId = new SelectList(db.ApplicationUsers, "Id", "Email");
-            //ViewBag.TruckId = new SelectList(db.Truck, "ID", "Name");
+            ViewBag.TruckId = new SelectList(db.Truck, "ID", "Name");
             return View();
         }
 
