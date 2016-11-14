@@ -350,7 +350,172 @@
 
 
 
+<<<<<<< HEAD
 #menuItemTitle{
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.glyphicon { margin-right:5px; }
+
+
+*{
+    font-family: 'open sans',arial,sans-serif;
+}
+
+
+
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+
+
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+
+
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+
+
+.item.list-group-item:nth-of-type(odd)
+{
+    background: #eeeeee;
+}
+
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+
+.item.list-group-item img
+{
+    float: left;
+}
+
+
+.item.list-group-item:after
+{
+    clear: both;
+    text-align: center;
+
+}
+
+.list-group-item-text
+{
+    margin: 0 0 12px;
+    text-align: center;
+}
+
+
+.list-group-item-heading{
+    text-align: center;
+}
+
+
+.btn, .btn-success
+{
+        font-size: 16px;
+        background-color: #9e1414;
+        border-color: #9e1414;
+
+}
+
+
+.btn:hover, .btn-success:hover
+{
+        font-size: 16px;
+        color: #9e1414;
+        background-color: white;
+        border-color: #9e1414;
+
+}
+
+
+.btn:focus, .btn-success:focus
+{
+        font-size: 16px;
+        color: #9e1414;
+        background-color: white;
+        border-color: #9e1414;
+
+}
+
+
+.btn:target, .btn-success:target
+{
+        font-size: 16px;
+        color: #9e1414;
+        background-color: white;
+        border-color: #9e1414;
+
+}
+
+
+
+.lead{
+    text-align: center;
+    font-size: 22px;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+
+.menuItemTitle{
+>>>>>>> 74ee0e8ff9016be914f70f437c43081b712e1b6d
     padding-top: 14px;
     padding-bottom: 14px;
     font-size: 34px;
@@ -382,4 +547,22 @@
 .list-group{
     padding-right: 3%;
     padding-left: 3%;
+<<<<<<< HEAD
+=======
+}
+
+
+
+
+div.cartWidget {
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   width: 230px;
+   border: 4px solid white;
+   z-index: 10;
+   border-radius: 7px;
+   background: #a6b1c1 ;
+   padding: 13px;
+>>>>>>> 74ee0e8ff9016be914f70f437c43081b712e1b6d
 }

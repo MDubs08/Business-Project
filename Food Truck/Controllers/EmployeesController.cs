@@ -54,7 +54,7 @@ namespace Food_Truck.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create([Bind(Include = "ID,FirstName,LastName,EmailAddress,AssignedPassword")] Employee employee)
+        public async Task<ActionResult> Create([Bind(Include = "ID,FirstName,LastName,EmailAddress,AssignedPassword,ApplicationUserId,TruckId")] Employee employee)
         {
             if (ModelState.IsValid)
             {
@@ -89,7 +89,7 @@ namespace Food_Truck.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.ApplicationUserId = new SelectList(db.ApplicationUsers, "Id", "Email", employee.ApplicationUserId);
+            //ViewBag.ApplicationUserId = new SelectList(db.ApplicationUsers, "Id", "Email", employee.ApplicationUserId);
             ViewBag.TruckId = new SelectList(db.Truck, "ID", "Name", employee.TruckId);
             return View(employee);
         }
@@ -134,7 +134,9 @@ namespace Food_Truck.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             Employee employee = db.Employee.Find(id);
+            ApplicationUser currentUser = db.Users.FirstOrDefault(x => x.Id == employee.ApplicationUserId);
             db.Employee.Remove(employee);
+            db.Users.Remove(currentUser);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

@@ -47,7 +47,7 @@ namespace Food_Truck.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Name,Sale_Price")] Food_Item food_Item)
+        public ActionResult Create([Bind(Include = "ID,Name,Sale_Price,Description")] Food_Item food_Item)
         {
             if (ModelState.IsValid)
             {
@@ -80,7 +80,7 @@ namespace Food_Truck.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Name,Sale_Price")] Food_Item food_Item)
+        public ActionResult Edit([Bind(Include = "ID,Name,Sale_Price,Description")] Food_Item food_Item)
         {
             if (ModelState.IsValid)
             {

@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AB88ED3E-8BAC-4DF7-8C62-7554FE804927}</ProjectGuid>
+    <ProjectGuid>{D75A5CE2-C6F2-451F-8E4C-07A02B310BB0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FoodTruckTest</RootNamespace>
-    <AssemblyName>FoodTruckTest</AssemblyName>
+    <RootNamespace>FoodTruckUnitTest</RootNamespace>
+    <AssemblyName>FoodTruckUnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

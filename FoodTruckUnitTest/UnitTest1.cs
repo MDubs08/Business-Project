@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace FoodTruckTest
+namespace FoodTruckUnitTest
 {
     [TestClass]
     public class UnitTest1

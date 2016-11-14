@@ -1,7 +1,0 @@
-C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\FoodTruckTest\FoodTruckTest\bin\Debug\FoodTruckTest.dll
-C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\FoodTruckTest\FoodTruckTest\bin\Debug\FoodTruckTest.pdb
-C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\FoodTruckTest\FoodTruckTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\FoodTruckTest\FoodTruckTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
-C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\FoodTruckTest\FoodTruckTest\obj\Debug\FoodTruckTest.csprojResolveAssemblyReference.cache
-C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\FoodTruckTest\FoodTruckTest\obj\Debug\FoodTruckTest.dll
-C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\FoodTruckTest\FoodTruckTest\obj\Debug\FoodTruckTest.pdb
