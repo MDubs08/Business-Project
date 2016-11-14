@@ -39,6 +39,26 @@ ADD MENU ITEM
                 	document.getElementById("products").innerHTML += menuItemMarkup;
             }
 
+____________________________________________________________________________________________________________
+
+
+
+
+
+REMOVE MENU ITEM
+
+
+    function removeElement(itemIDTag)
+    {
+        var element = document.getElementById(itemIDTag);
+        element.parentNode.removeChild(element);
+    }
+
+____________________________________________________________________________________________________________
+
+
+
+
 
 
 
