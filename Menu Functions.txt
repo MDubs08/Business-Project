@@ -85,3 +85,19 @@ ________________________________________________________________________________
 
 
 
+SHOPPING CART WIDGET JS FUNCTION
+
+function addItemToCartWidget(itemIDTag) 
+	{
+        var parent = document.getElementById("itemsAdded");
+        var newItem = document.createElement('p');
+       
+        var title = document.getElementById(itemIDTag + "menuItemTitle").innerHTML;
+        var price = document.getElementById(itemIDTag + "itemPrice").innerHTML;
+        newItem.innerHTML = title + ": " + price;
+        parent.appendChild(newItem);
+    };
+
+____________________________________________________________________________________________________________
+
+
