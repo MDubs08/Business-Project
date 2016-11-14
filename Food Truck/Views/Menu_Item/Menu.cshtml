@@ -4,6 +4,17 @@
     ViewBag.Title = "Menu";
 }
 
+
+
+<style>
+    body {
+        background-image: url("plaid.png");
+        background-repeat: repeat;
+    }
+</style>
+
+
+
 <div id="menu" class="container bg-overlay">
     <div class="row text-center">
         <h1>Menu</h1>
@@ -15,54 +26,22 @@
         <br><br>
     </div>
 </div>
-<div id="products" class="row list-group">
-    <div class="item add-on col-md-4">
-        <div class="thumbnail">
-            <img class="group list-group-image" src="~/Content/Pictures/Food/classic.jpg" alt="" />
-            <div class="caption">
-                <h4 id="menuItemTitle" class="group inner list-group-item-heading">@Html.DisplayNameFor(model => model.Food_Item.Name)</h4>
-                <p id="menuItemDescription" class="group inner list-group-item-text">@Html.DisplayNameFor(model => model.Food_Item.Description)</p>
-                <div class="row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-2">
-                        <p class="lead" id="menuPrice">@Html.DisplayNameFor(model => model.Food_Item.Sale_Price)</p>
-                    </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-4">
-                        <a class="btn btn-success" id="order" onclick="addToOrder()">Add to Order</a>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="input-append spinner " data-trigger="spinner">
-                            <div class="col-md-8">
-                                <input type="text" placeholder="1" data-rule="quantity" class="form-control">
-                            </div>
-                            <div class="col-md-4">
-                                <a href="javascript:;" class="spin-up" data-spin="up">
-                                    <span class="glyphicon glyphicon-chevron-up spinner"></span>
-                                </a>
-                                <a href="javascript:;" class="spin-down" data-spin="down">
-                                    <span class="glyphicon glyphicon-chevron-down spinner"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    @foreach (var item in Model)
+
+
+<div id="products" class="row list-group">
+        @foreach (var item in Model)
     {
         <div id="@Html.DisplayFor(modelItem => item.Food_Item.ID)" class="item add-on col-md-4">
             <div class="thumbnail">
                 <img class="group list-group-image" src="~/Content/Pictures/Food/classic.jpg" alt="" />
                 <div class="caption">
-                    <h4 id="@Html.DisplayFor(modelItem => item.Food_Item.ID)+menuItemTitle" class="group inner list-group-item-heading">@Html.DisplayFor(modelItem => item.Food_Item.Name)</h4>
+                    <h4 id="@Html.DisplayFor(modelItem => item.Food_Item.ID)+menuItemTitle" class="group inner list-group-item-heading menuItemTitle">@Html.DisplayFor(modelItem => item.Food_Item.Name)</h4>
                     <p id="menuItemDescription" class="group inner list-group-item-text">@Html.DisplayFor(modelItem => item.Food_Item.Description)</p>
                     <div class="row">
                         <div class="col-md-1"></div>
                         <div class="col-md-2">
-                            <p class="lead" id="@Html.DisplayFor(modelItem => item.Food_Item.ID)+itemPrice">@Html.DisplayNameFor(model => model.Food_Item.Sale_Price)</p>
+                            <p class="lead" id="@Html.DisplayFor(modelItem => item.Food_Item.ID)+itemPrice">$@Html.DisplayFor(modelItem => item.Food_Item.Sale_Price)</p>
                         </div>
                         <div class="col-md-1"></div>
                         <div class="col-md-4">
@@ -88,54 +67,20 @@
             </div>
         </div>
     }
-    <div class="item add-on col-md-4">
-        <div class="thumbnail">
-            <img class="group list-group-image" src="~/Content/Pictures/Food/classic.jpg" alt="" />
-            <div class="caption">
-                <h4 id="menuItemTitle" class="group inner list-group-item-heading">The Classic</h4>
-                <p id="menuItemDescription" class="group inner list-group-item-text">Where it all began. This tasty favorite comes with lettuce, tomatoes, onions, pickles, and a whole lot of flavor. There's a reason it's our #1 seller!</p>
-                <div class="row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-2">
-                        <p class="lead" id="menuPrice">$6.00</p>
-                    </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-4">
-                        <a class="btn btn-success" id="order">Add to Order</a>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="input-append spinner " data-trigger="spinner">
-                            <div class="col-md-8">
-                                <input type="text" placeholder="1" data-rule="quantity" class="form-control">
-                            </div>
-                            <div class="col-md-4">
-                                <a href="javascript:;" class="spin-up" data-spin="up">
-                                    <span class="glyphicon glyphicon-chevron-up spinner"></span>
-                                </a>
-                                <a href="javascript:;" class="spin-down" data-spin="down">
-                                    <span class="glyphicon glyphicon-chevron-down spinner"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container" id="addItem">
-
 </div>
 <div class="cartWidget">
     <div class="row" style="color: white; font-size: 28px;">
         <center>Your Order</center>
     </div>
     <div>
-    <br />
-   <center id="itemsAdded"></center>
+        <br />
+        <center id="itemsAdded"></center>
     </div>
 </div>
+<div class="container" id="addItem">
+
+</div>
+
 
 <!--
             <div class="item  col-xs-4 col-lg-4">
