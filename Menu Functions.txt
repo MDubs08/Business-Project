@@ -61,6 +61,27 @@ ________________________________________________________________________________
 
 
 
+SHOPPING CART WIDGET HTML
+
+
+<div class="cartWidget">
+	<div class="row" style="color: white; font-size: 28px;">
+		<center>
+			Your Order
+		</center>
+
+	</div>
+
+
+	<div>
+		</br>
+		<center id="itemsAdded">
+		<center>
+	</div>
+</div>
+
+____________________________________________________________________________________________________________
+
 
 
 
