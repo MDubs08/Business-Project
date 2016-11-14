@@ -276,10 +276,17 @@
               transform: translate3d(-50%,-50%,0);
 }
 .hero h1 {
-    font-size: 6em;    
+    font-size: 8em;    
     font-weight: bold;
     margin: 0;
     padding: 0;
+    text-shadow: 0 0 15px black;
+}
+
+.hero h3 {
+    font-size: 3em;    
+    font-weight: bold;
+    text-shadow: 0 0 15px black;
 }
 
 .fade-carousel .carousel-inner .item .hero {
@@ -305,7 +312,7 @@
     height: 100%;
     z-index: 2;
     background-color: #080d15;
-    opacity: .7;
+    opacity: 6;
 }
 
 .fade-carousel .slides .slide-1, 
@@ -335,4 +342,44 @@
 }
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 4em; }    
+}
+
+
+
+
+
+
+
+#menuItemTitle{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 34px;
+    color: #9e1414;
+}
+
+
+#menuItemDescription
+{
+    padding-bottom: 8px;
+    padding-right: 7%;
+    padding-left: 7%;
+    font-size: 120%;
+}
+
+#order{
+    font-size: 16px;
+    }
+
+
+.add-on{
+    padding-top: 1%;
+    padding-bottom: 3%;
+       padding-right: 1%;
+    padding-left: 1%;
+}
+
+
+.list-group{
+    padding-right: 3%;
+    padding-left: 3%;
 }
