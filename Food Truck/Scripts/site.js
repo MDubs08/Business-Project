@@ -43,4 +43,20 @@ function addToOrder() {
     orderItem += '';
     $('#currentOrder').html('<div class="container">' + orderItem + '</div>')
 };
-
+function addMenuItem(itemIDTag, imageSource, itemTitle, itemDescription, itemPrice) {
+    var menuItemMarkup = "";
+    menuItemMarkup = '<div id="' + itemIDTag + '" class="item add-on col-md-4">';
+    menuItemMarkup += '<div class="thumbnail">';
+    menuItemMarkup += '<img class="group list-group-image" src="' + imageSource + '" alt="Menu Item Image" style="width:330px;height:228px; padding-top: 20px;/>';
+    menuItemMarkup += '<div class="caption">';
+    menuItemMarkup += '<h4 id="' + itemIDTag + 'menuItemTitle" class="group inner list-group-item-heading">' + itemTitle + '</h4>'
+    menuItemMarkup += '<p id="menuItemDescription" class="group inner list-group-item-text">' + itemDescription + '</p>';
+    menuItemMarkup += '<div class="row">';
+    menuItemMarkup += '<center><p id="' + itemIDTag + 'itemPrice" class="lead">$' + itemPrice + '</p></center></div>';
+    menuItemMarkup += '<div class="row">';
+    menuItemMarkup += '<center><a class="btn btn-success" id="order" onclick="addElement(';
+    menuItemMarkup += "'" + itemIDTag + "'";
+    menuItemMarkup += ');">Add to Order</a></center></br></div>';
+    menuItemMarkup += '</div></div></div>';
+    document.getElementById("products").innerHTML += menuItemMarkup;
+}
