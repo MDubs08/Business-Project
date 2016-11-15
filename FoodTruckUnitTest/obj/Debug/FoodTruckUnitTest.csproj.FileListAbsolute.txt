@@ -43,8 +43,6 @@ C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\FoodTruckUnitTest\
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\FoodTruckUnitTest\obj\Debug\FoodTruckUnitTest.csprojResolveAssemblyReference.cache
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\FoodTruckUnitTest\obj\Debug\FoodTruckUnitTest.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\FoodTruckUnitTest\obj\Debug\FoodTruckUnitTest.pdb
-<<<<<<< HEAD
-=======
 C:\Users\MDubs\Documents\GitHub\Business-Project\FoodTruckUnitTest\bin\Debug\roslyn\csc.exe
 C:\Users\MDubs\Documents\GitHub\Business-Project\FoodTruckUnitTest\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\MDubs\Documents\GitHub\Business-Project\FoodTruckUnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -135,4 +133,3 @@ C:\Users\cjgue\Documents\github\Business-Project\FoodTruckUnitTest\bin\Debug\Mic
 C:\Users\cjgue\Documents\github\Business-Project\FoodTruckUnitTest\obj\Debug\FoodTruckUnitTest.csprojResolveAssemblyReference.cache
 C:\Users\cjgue\Documents\github\Business-Project\FoodTruckUnitTest\obj\Debug\FoodTruckUnitTest.dll
 C:\Users\cjgue\Documents\github\Business-Project\FoodTruckUnitTest\obj\Debug\FoodTruckUnitTest.pdb
->>>>>>> origin/master
