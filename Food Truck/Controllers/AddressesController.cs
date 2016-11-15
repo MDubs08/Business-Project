@@ -50,7 +50,7 @@ namespace Food_Truck.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Street_Number,Street_Name,CityID,StateID,ZipcodeID")] Address address)
+        public ActionResult Create([Bind(Include = "ID,Street_Number,Street_Name,City,State,Zipcode")] Address address, City city, State state, Zipcode zipcode)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace Food_Truck.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Street_Number,Street_Name,CityID,StateID,ZipcodeID")] Address address)
+        public ActionResult Edit([Bind(Include = "ID,Street_Number,Street_Name,City,State,Zipcode")] Address address, City city, State state, Zipcode zipcode)
         {
             if (ModelState.IsValid)
             {
