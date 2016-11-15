@@ -124,7 +124,6 @@ C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\bin\ros
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\bin\Food Truck.dll.config
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\bin\Food Truck.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\bin\Food Truck.pdb
-C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.initialdrop.resources
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedroles.resources
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food Truck.csproj.GenerateResource.Cache

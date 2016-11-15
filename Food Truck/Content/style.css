@@ -281,10 +281,17 @@ img.border{
               transform: translate3d(-50%,-50%,0);
 }
 .hero h1 {
-    font-size: 6em;    
+    font-size: 8em;    
     font-weight: bold;
     margin: 0;
     padding: 0;
+    text-shadow: 0 0 15px black;
+}
+
+.hero h3 {
+    font-size: 3em;    
+    font-weight: bold;
+    text-shadow: 0 0 15px black;
 }
 
 .fade-carousel .carousel-inner .item .hero {
@@ -310,7 +317,7 @@ img.border{
     height: 100%;
     z-index: 2;
     background-color: #080d15;
-    opacity: .7;
+    opacity: 6;
 }
 
 .fade-carousel .slides .slide-1, 
@@ -348,6 +355,9 @@ img.border{
 
 
 
+<<<<<<< HEAD
+#menuItemTitle{
+=======
 
 
 
@@ -510,6 +520,7 @@ img.border{
 
 
 .menuItemTitle{
+>>>>>>> 74ee0e8ff9016be914f70f437c43081b712e1b6d
     padding-top: 14px;
     padding-bottom: 14px;
     font-size: 34px;
@@ -541,6 +552,8 @@ img.border{
 .list-group{
     padding-right: 3%;
     padding-left: 3%;
+<<<<<<< HEAD
+=======
 }
 
 
@@ -556,4 +569,5 @@ div.cartWidget {
    border-radius: 7px;
    background: #a6b1c1 ;
    padding: 13px;
+>>>>>>> 74ee0e8ff9016be914f70f437c43081b712e1b6d
 }
