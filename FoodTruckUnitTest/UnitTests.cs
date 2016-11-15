@@ -58,5 +58,31 @@ namespace FoodTruckUnitTest
 
         }
 
+
+
+        [TestMethod]
+        [Authorize(Roles = "Admin, Owner")]
+        public void MenuCreate()
+        {
+            // Arrange
+            MenuController controller = new MenuController();
+
+            // Act
+            var result = controller.Create() as ViewResult;
+
+            // Assert
+            Assert.AreEqual("Create", result.ViewName);
+        }
+
     }
 }
+
+
+
+
+
+// Arrange
+
+// Act
+
+// Assert

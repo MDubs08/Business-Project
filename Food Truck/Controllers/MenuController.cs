@@ -46,7 +46,7 @@ namespace Food_Truck.Controllers
         [Authorize(Roles = "Admin, Owner")]
         public ActionResult Create()
         {
-            return View();
+            return View("Create");
         }
 
         // POST: Menu/Create
