@@ -281,7 +281,7 @@ img.border{
               transform: translate3d(-50%,-50%,0);
 }
 .hero h1 {
-    font-size: 8em;    
+    font-size: 6em;    
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -317,7 +317,7 @@ img.border{
     height: 100%;
     z-index: 2;
     background-color: #080d15;
-    opacity: 6;
+    opacity: .7;
 }
 
 .fade-carousel .slides .slide-1, 
@@ -349,34 +349,10 @@ img.border{
     .hero h1 { font-size: 4em; }    
 }
 
-
-
-
-
-
-
-<<<<<<< HEAD
-#menuItemTitle{
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.glyphicon { margin-right:5px; }
-
+.glyphicon 
+{ 
+    margin-right:5px;
+           }
 
 *{
     font-family: 'open sans',arial,sans-serif;
@@ -552,8 +528,6 @@ img.border{
 .list-group{
     padding-right: 3%;
     padding-left: 3%;
-<<<<<<< HEAD
-=======
 }
 
 
@@ -569,5 +543,4 @@ div.cartWidget {
    border-radius: 7px;
    background: #a6b1c1 ;
    padding: 13px;
->>>>>>> 74ee0e8ff9016be914f70f437c43081b712e1b6d
 }

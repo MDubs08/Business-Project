@@ -30,7 +30,6 @@ namespace Food_Truck.Controllers
 
         public ActionResult Menu()
         {
-            ViewBag.OrderDetailer = 
             var menu_Item = db.Menu_Item.Include(m => m.Food_Item).Include(m => m.Menu);
             return View(menu_Item.ToList());
         }
