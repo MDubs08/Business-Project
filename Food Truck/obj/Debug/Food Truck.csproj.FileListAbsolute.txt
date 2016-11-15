@@ -146,7 +146,6 @@ C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Food Truck.dll.config
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Food Truck.dll
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Food Truck.pdb
-C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.initialdrop.resources
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedroles.resources
@@ -207,3 +206,4 @@ C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\Food Truck\obj\Debug\Food Truck.csproj.GenerateResource.Cache
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\Food Truck\obj\Debug\Food Truck.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\Food Truck\obj\Debug\Food Truck.pdb
+C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\GoogleMaps.LocationServices.dll
