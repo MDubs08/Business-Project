@@ -36,21 +36,21 @@
             <div class="thumbnail">
                 <img class="group list-group-image" src="~/Content/Pictures/Food/classic.jpg" alt="" />
                 <div class="caption">
-                    <h4 id="@Html.DisplayFor(modelItem => item.Food_Item.ID)+menuItemTitle" class="group inner list-group-item-heading menuItemTitle">@Html.DisplayFor(modelItem => item.Food_Item.Name)</h4>
+                    <h4 id="menuItemTitle" class="group inner list-group-item-heading menuItemTitle">@Html.DisplayFor(modelItem => item.Food_Item.Name)</h4>
                     <p id="menuItemDescription" class="group inner list-group-item-text">@Html.DisplayFor(modelItem => item.Food_Item.Description)</p>
                     <div class="row">
                         <div class="col-md-1"></div>
                         <div class="col-md-2">
-                            <p class="lead" id="@Html.DisplayFor(modelItem => item.Food_Item.ID)+itemPrice">$@Html.DisplayFor(modelItem => item.Food_Item.Sale_Price)</p>
+                            <p class="lead" id="itemPrice">$@Html.DisplayFor(modelItem => item.Food_Item.Sale_Price)</p>
                         </div>
                         <div class="col-md-1"></div>
                         <div class="col-md-4">
-                            <a class="btn btn-success" id="order">Add to Order</a>
+                            <a class="btn btn-success" id="addToOrder" onclick="addItemToCartWidget('@Html.DisplayFor(modelItem => item.Food_Item.Name)', '@Html.DisplayFor(modelItem => item.Food_Item.Sale_Price)')">Add to Order</a>
                         </div>
                         <div class="col-md-4">
                             <div class="input-append spinner " data-trigger="spinner">
                                 <div class="col-md-8">
-                                    <input type="text" placeholder="1" data-rule="quantity" class="form-control">
+                                    <input type="text" placeholder="1" data-rule="quantity" class="form-control" id="quantity">
                                 </div>
                                 <div class="col-md-4">
                                     <a href="javascript:;" class="spin-up" data-spin="up">
@@ -67,6 +67,18 @@
             </div>
         </div>
     }
+    <script>
+        function addItemToCartWidget(title, price) {
+        var parent = document.getElementById("itemsAdded");
+        var newItem = document.createElement('p');
+
+        this.title = title;
+        this.price = price;
+
+        newItem.innerHTML = title + ": " + "$" + price;
+        parent.appendChild(newItem);
+    };
+    </script>
 </div>
 <div class="cartWidget">
     <div class="row" style="color: white; font-size: 28px;">
@@ -76,11 +88,11 @@
         <br />
         <center id="itemsAdded"></center>
     </div>
+    <a id="checkout" class="btn btn-success">Checkout</a>
 </div>
 <div class="container" id="addItem">
 
 </div>
-
 
 <!--
             <div class="item  col-xs-4 col-lg-4">

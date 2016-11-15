@@ -129,6 +129,12 @@
     text-align: center;
 }
 
+img.border{
+    width:330px;
+    height:228px; 
+    padding-top: 20px;
+}
+
 /*margin-top*/
 
 .btn, .btn-success
@@ -148,7 +154,6 @@
         border-color: #9e1414;
 
 }
-
 
 .btn:focus, .btn-success:focus
 {

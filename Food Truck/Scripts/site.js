@@ -39,9 +39,7 @@ function addItem() {
 };
 
 function addToOrder() {
-    var orderItem = '<div class="col-md-4"></div>';
-    orderItem += '';
-    $('#currentOrder').html('<div class="container">' + orderItem + '</div>')
+    
 };
 function addMenuItem(itemIDTag, imageSource, itemTitle, itemDescription, itemPrice) {
     var menuItemMarkup = "";
