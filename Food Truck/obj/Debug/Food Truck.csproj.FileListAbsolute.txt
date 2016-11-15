@@ -89,26 +89,6 @@ C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food Truck
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food Truck.dll
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food Truck.pdb
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedroles.resources
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\csc.exe
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\vbc.exe
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\VBCSCompiler.exe
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\Food Truck.dll.config
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\Food Truck.dll
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\Food Truck.pdb
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.initialdrop.resources
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedroles.resources
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csproj.GenerateResource.Cache
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.dll
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.pdb
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\bin\roslyn\csc.exe
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -129,7 +109,6 @@ C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Deb
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food Truck.csproj.GenerateResource.Cache
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food Truck.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food Truck.pdb
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.food_Itemreplacedmenu_item.resources
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.food_Itemreplacedmenu_item.resources
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\roslyn\csc.exe
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -155,10 +134,6 @@ C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food Truck.pdb
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.createdemployeetable.resources
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedforeignkeytotruckonemployee.resources
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.descriptionforfooditem.resources
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.createdemployeetable.resources
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedforeignkeytotruckonemployee.resources
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.update.resources
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.createdemployeetable.resources
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedforeignkeytotruckonemployee.resources
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.descriptionforfooditem.resources
@@ -166,10 +141,7 @@ C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.descriptionforfooditem.resources
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.update.resources
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
-C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
-C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\GoogleMaps.LocationServices.dll
 C:\Users\cjgue\Documents\github\Business-Project\Food Truck\bin\GoogleMaps.LocationServices.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\bin\GoogleMaps.LocationServices.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.food_Itemreplacedmenu_item.resources
@@ -178,7 +150,37 @@ C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Deb
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.descriptionforfooditem.resources
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.update.resources
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\csc.exe
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\vbc.exe
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\VBCSCompiler.exe
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\Food Truck.dll.config
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\Food Truck.dll
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\Food Truck.pdb
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\bin\GoogleMaps.LocationServices.dll
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.initialdrop.resources
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedroles.resources
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.food_Itemreplacedmenu_item.resources
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.createdemployeetable.resources
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedforeignkeytotruckonemployee.resources
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.descriptionforfooditem.resources
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.update.resources
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csproj.GenerateResource.Cache
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.dll
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.pdb
+<<<<<<< HEAD
+=======
 C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
+>>>>>>> origin/master
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\Food Truck\bin\roslyn\csc.exe
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\Food Truck\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\Food Truck\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -206,4 +208,12 @@ C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\Food Truck\obj\Debug\Food Truck.csproj.GenerateResource.Cache
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\Food Truck\obj\Debug\Food Truck.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\Food Truck\obj\Debug\Food Truck.pdb
+<<<<<<< HEAD
 C:\Users\Eric Werner\Documents\Visual Studio 2015\Projects\BusinessGroupProject\Business-Project\Food Truck\bin\GoogleMaps.LocationServices.dll
+=======
+<<<<<<< HEAD
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
+=======
+C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
+>>>>>>> origin/master
+>>>>>>> a367d7537539b5a23a146faa1e0d4a672c28f359
