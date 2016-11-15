@@ -179,3 +179,4 @@ C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Deb
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.descriptionforfooditem.resources
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.update.resources
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Business-Project\Food Truck\obj\Debug\Food_Truck.Migrations.addedcolumnstoemployeetable.resources
+C:\Users\MDubs\Documents\GitHub\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
