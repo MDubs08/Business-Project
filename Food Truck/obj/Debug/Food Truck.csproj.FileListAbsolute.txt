@@ -206,3 +206,4 @@ C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\Food Truck\obj\Debug\Food Truck.csproj.GenerateResource.Cache
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\Food Truck\obj\Debug\Food Truck.dll
 C:\Users\Owner\Desktop\Home\Projects\Week 10\Food Truck Folder\Business-Project\Food Truck\obj\Debug\Food Truck.pdb
+C:\Users\cjgue\Documents\github\Business-Project\Food Truck\obj\Debug\Food Truck.csprojResolveAssemblyReference.cache
